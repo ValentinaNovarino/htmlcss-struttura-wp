@@ -1,4 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 60px;
+}
+
 header{
     background-color: yellow;
-    
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.left{
+    width: 25%;
+    height: 200px;
+    background-color: pink;
+    float: left;
+    margin-right: 10px;
+}
+
+main{
+    width:50%;
+    height: 320px;
+    float: left;
+    background-color: purple;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.right-top{
+    width: calc(25% - 20px);
+    height: 150px;
+    float: left;
+    background-color: pink;
+    margin-bottom: 10px;
+}
+
+.right-bottom{
+    width: calc(25% - 20px);
+    height: 150px;
+    float:left;
+    background-color: pink;
 }
