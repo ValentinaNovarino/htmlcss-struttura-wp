@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container::after{
     content: '';
     display: table;
@@ -11,26 +5,28 @@
 }
 
 .container{
-    margin: 50px;
+    width: 80%;
+    margin: auto;
 }
 
 header{
     height: 150px;
     width: 100%;
     background-color: yellow;
-
+    float: left;
+    margin: auto;
 }
 
-.left{
-    height: 100px;
+aside.left{
+    /*height: 100px;*/
     width: 25%;
-    background-color: pink;
     float: left;
     margin-top: 10px;
+    background-color: pink;
 }
 
 main{
-    height: 300px;
+    /*height: 300px;*/
     width: 50%;
     background-color: purple;
     float: left;
@@ -39,27 +35,23 @@ main{
     margin-right: 10px;
 }
 
-.right-top{
-    height: 120px;
+aside.right{
     width: calc(25% - 20px);
-    background-color: pink;
+    margin-top: 10px;
     float: left;
     margin-top: 10px;
-
 }
 
-.right-bottom{
-    height: 120px;
-    width: calc(25% - 20px);
+aside .box{
     background-color: pink;
-    float: left;
-    margin-top: 10px;
+    /*height: 100px;*/
+    margin-bottom: 10px;
 }
 
 footer{
+    /*height: 50px;*/
     width: 100%;
-    height: 50px;
-    float: left;
     background-color: lightblue;
-    margin-top: 10px;
+    float: left;
+    margin: auto;
 }
